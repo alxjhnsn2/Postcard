@@ -81,6 +81,13 @@
                                     <action selector="sendMessageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OyB-Qo-7UC"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF9-xM-9Yt">
+                                <rect key="frame" x="28" y="146" width="226" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -90,6 +97,7 @@
                         <outlet property="enterNameTextField" destination="0tl-wT-0ZD" id="Rz5-a2-DaC"/>
                         <outlet property="messageButton" destination="qU1-yv-2ey" id="FoB-Ht-jrJ"/>
                         <outlet property="messageLabel" destination="K1E-2R-Dl0" id="Gr3-jA-QYd"/>
+                        <outlet property="nameLabel" destination="cF9-xM-9Yt" id="1un-VS-cYx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
